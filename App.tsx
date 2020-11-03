@@ -71,7 +71,7 @@ class App extends Component {
       console.log("title", title)
       console.log("body", body)
       console.log("Notification open background", notificationOpen.notification)
-      this.displayNotification(title, body);
+      // this.displayNotification(title, body);
     });
 
     // This listener triggered when app is closed and we click,tapped and opened notification 
@@ -81,7 +81,7 @@ class App extends Component {
       console.log("title", title)
       console.log("body", body)
       console.log("Notification open quit", notificationOpen.notification)
-      this.displayNotification(title, body);
+      // this.displayNotification(title, body);
     }
   }
 
