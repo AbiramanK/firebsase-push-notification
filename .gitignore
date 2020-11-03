@@ -62,4 +62,4 @@ buck-out/
 # CocoaPods
 /ios/Pods/
 
-!*.apk
+!firebase_push_notification.apk
